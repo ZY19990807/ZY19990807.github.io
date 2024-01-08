@@ -1,3 +1,0 @@
-http://example.com/2024/01/05/test/
-http://example.com/2024/01/04/hello-world/
-http://example.com/
