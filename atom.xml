@@ -23,12 +23,12 @@
     <published>2024-01-18T03:48:20.000Z</published>
     <updated>2024-01-18T04:30:20.205Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/test-md/index/bug2.png" alt="bug2"></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="http://thepathfinder.top/test-md/index.htmlbug2.png" alt="bug2"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/test-md/index/bug2.png&quot; alt=&quot;bug2&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;http://thepathfinder.top/test-md/index.htmlbug2.png&quot; alt=&quot;bug2&quot;&gt;&lt;/p&gt;
 </summary>
       
     
@@ -44,15 +44,14 @@
     <published>2024-01-16T02:52:22.000Z</published>
     <updated>2024-01-18T03:10:57.922Z</updated>
     
-    <content type="html"><![CDATA[<p>问题：部分用户上报用友U8报表查询功能报错，提示如图</p><p><img src="/.top//bug1.png" alt="bug1"></p><p><img src="/.top//bug2.png" alt="bug2"></p>]]></content>
+    <content type="html"><![CDATA[<p>问题：部分用户上报用友U8报表查询功能报错，提示如图</p><p><img src="http://thepathfinder.top/2024/01/16/Prowiz1/bug1.png" alt="bug1"></p><p><img src="http://thepathfinder.top/2024/01/16/Prowiz1/bug2.png" alt="bug2"></p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;问题：部分用户上报用友U8报表查询功能报错，提示如图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/.top//bug1.png&quot; alt=&quot;bug1&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/.top//bug2.png&quot; alt=&quot;bug2&quot;&gt;&lt;/p&gt;
-</summary>
+&lt;p&gt;&lt;img src=&quot;http://thepathfinder.top/2024/01/16/Prowiz1/bug1.png&quot; alt=&quot;bug1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://the</summary>
       
     
     
