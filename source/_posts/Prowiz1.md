@@ -9,3 +9,4 @@ date: 2024-01-16 10:52:22
 ![bug1](./Prowiz1/bug1.png)
 
 ![bug2](./Prowiz1/bug2.png)
+
