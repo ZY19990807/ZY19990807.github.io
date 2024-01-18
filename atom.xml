@@ -6,7 +6,7 @@
   <link href="http://thepathfinder.top/atom.xml" rel="self"/>
   
   <link href="http://thepathfinder.top/"/>
-  <updated>2024-01-18T03:49:39.188Z</updated>
+  <updated>2024-01-18T04:30:20.205Z</updated>
   <id>http://thepathfinder.top/</id>
   
   <author>
@@ -18,17 +18,17 @@
   
   <entry>
     <title>test.md</title>
-    <link href="http://thepathfinder.top/2024/01/18/test-md/"/>
-    <id>http://thepathfinder.top/2024/01/18/test-md/</id>
+    <link href="http://thepathfinder.top/test-md/index.html"/>
+    <id>http://thepathfinder.top/test-md/index.html</id>
     <published>2024-01-18T03:48:20.000Z</published>
-    <updated>2024-01-18T03:49:39.188Z</updated>
+    <updated>2024-01-18T04:30:20.205Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/.top//bug2.png" alt="bug2"></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="/test-md/index/bug2.png" alt="bug2"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/.top//bug2.png&quot; alt=&quot;bug2&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/test-md/index/bug2.png&quot; alt=&quot;bug2&quot;&gt;&lt;/p&gt;
 </summary>
       
     
