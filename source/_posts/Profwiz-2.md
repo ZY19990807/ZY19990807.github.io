@@ -28,6 +28,6 @@ C:\ WINDOWS \system32\drivers\etc
 
 1、hosts文件配置 ，IP与计算机名中间为TAB空格。
 
-![hosts](./Profwiz-2/hosts配置.png)
+![hosts配置](./Profwiz-2/hosts%E9%85%8D%E7%BD%AE.png)
 
 2、如果在操作之前没有进行其他设置，直接修改hosts文件可能是解决问题的一种方法。确保在修改之前备份hosts文件，并添加服务器的IP地址和计算机名。如果问题仍然存在，可能需要考虑其他网络或服务器配置。建议在进行任何更改之前咨询网络管理员或系统支持，以确保正确性。
