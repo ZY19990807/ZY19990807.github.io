@@ -8,9 +8,9 @@ permalink: /Profwiz-2/index.html
 
 使用Profwiz工具进行迁域之后，部分用户上报用友U8报表查询功能报错，提示**不知道这样的主机**;**UU登录失败**，如图所示。
 
-![bug1](E:/Myblog/source/_posts/Profwiz-2/bug1.png)
+![bug1](\image\bug1.png)
 
-![bug2](E:/Myblog/source/_posts/Profwiz-2/bug2-1705897755873-3.png)
+![bug2](E:/Myblog/source/_posts/Profwiz-2/bug2.png)
 
 解决方案：
 
