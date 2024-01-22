@@ -1,7 +1,7 @@
 ---
 title: Profwiz迁域可能导致的问题-解决方案（二）
 date: 2024-01-16 10:52:22
-permalink:/Profwiz-2/index.html
+permalink: /Profwiz-2/index.html
 ---
 
 出现问题：
