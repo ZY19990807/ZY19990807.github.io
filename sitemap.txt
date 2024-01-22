@@ -1,4 +1,3 @@
-http://zy19990807.github.io/Profwiz-2/index.html
 http://zy19990807.github.io/tags/index.html
 http://zy19990807.github.io/link/index.html
 http://zy19990807.github.io/categories/index.html
