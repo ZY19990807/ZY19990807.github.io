@@ -1,16 +1,16 @@
 ---
-title: Prowiz迁域可能导致的问题-解决方案（二）
+title: Profwiz迁域可能导致的问题-解决方案（二）
 date: 2024-01-16 10:52:22
-permalink: /Prowiz-2/index.html
+permalink: /Profwiz-2/index.html
 ---
 
 出现问题：
 
 使用Profwiz工具进行迁域之后，部分用户上报用友U8报表查询功能报错，提示**不知道这样的主机**;**UU登录失败**，如图所示。
 
-![bug1](./Prowiz-2/bug1.png)
+![bug1](./Profwiz-2/bug1.png)
 
-![bug2](./Prowiz-2/bug2.png)
+![bug2](./Profwiz-2/bug2.png)
 
 解决方案：
 
@@ -28,6 +28,6 @@ C:\ WINDOWS \system32\drivers\etc
 
 1、hosts文件配置 ，IP与计算机名中间为TAB空格。
 
-![hosts](./Prowiz-2/hosts.png)
+![hosts](./Profwiz-2/hosts.png)
 
 2、如果在操作之前没有进行其他设置，直接修改hosts文件可能是解决问题的一种方法。确保在修改之前备份hosts文件，并添加服务器的IP地址和计算机名。如果问题仍然存在，可能需要考虑其他网络或服务器配置。建议在进行任何更改之前咨询网络管理员或系统支持，以确保正确性。
