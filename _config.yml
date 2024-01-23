@@ -7,13 +7,13 @@ title: Pepper's Site
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Pepper Zhang
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://ZY19990807.github.io
+url: https://ZY19990807.github.io/ZY19990807.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
