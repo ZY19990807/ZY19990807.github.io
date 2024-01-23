@@ -6,7 +6,7 @@
   <link href="http://zy19990807.github.io/atom.xml" rel="self"/>
   
   <link href="http://zy19990807.github.io/"/>
-  <updated>2024-01-23T02:26:38.278Z</updated>
+  <updated>2024-01-23T04:20:09.902Z</updated>
   <id>http://zy19990807.github.io/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="http://zy19990807.github.io/Profwiz-2/index.html"/>
     <id>http://zy19990807.github.io/Profwiz-2/index.html</id>
     <published>2024-01-16T02:52:22.000Z</published>
-    <updated>2024-01-23T02:26:38.278Z</updated>
+    <updated>2024-01-23T04:20:09.902Z</updated>
     
-    <content type="html"><![CDATA[<p>出现问题：</p><p>使用Profwiz工具进行迁域之后，部分用户上报用友U8报表查询功能报错，提示<strong>不知道这样的主机</strong>;<strong>UU登录失败</strong>，如图所示。</p><p><img src="/./Profwiz-2/bug1.png" alt="bug1"></p><p><img src="/./Profwiz-2/bug2.png" alt="bug2"></p><p>解决方案：</p><p>1、服务器的各种端口对此客户端开放，常用的有1433、11520、9832。然后看此客户端是否和服务器在同一网段。 </p><p>2、在客户端机器上修改hosts文件，把服务器的IP地址和计算机名加入，最后关闭客户端和服务器的防火墙。 这个问题是因为服务器名称不能正确解析到 服务器IP地址。这样就需要在</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\ WINDOWS \system32\drivers\etc</span><br></pre></td></tr></table></figure><p>文件夹下打开hosts文件里面把服务器名和IP地址绑定了，不会出现找到主机这样的问题了。</p><p>注意：</p><p>1、hosts文件配置 ，IP与计算机名中间为TAB空格。</p><p><img src="/./Profwiz-2/hosts%E9%85%8D%E7%BD%AE.png" alt="hosts配置"></p><p>2、如果在操作之前没有进行其他设置，直接修改hosts文件可能是解决问题的一种方法。确保在修改之前备份hosts文件，并添加服务器的IP地址和计算机名。如果问题仍然存在，可能需要考虑其他网络或服务器配置。建议在进行任何更改之前咨询网络管理员或系统支持，以确保正确性。</p>]]></content>
+    <content type="html"><![CDATA[<p>出现问题：</p><p>使用Profwiz工具进行迁域之后，部分用户上报用友U8报表查询功能报错，提示<strong>不知道这样的主机</strong>;<strong>UU登录失败</strong>，如图所示。</p><img src="/Profwiz-2/index/index/bug1.png" class title="bug1"><img src="/Profwiz-2/index/index/bug2.png" class title="bug2"><p>解决方案：</p><p>1、服务器的各种端口对此客户端开放，常用的有1433、11520、9832。然后看此客户端是否和服务器在同一网段。 </p><p>2、在客户端机器上修改hosts文件，把服务器的IP地址和计算机名加入，最后关闭客户端和服务器的防火墙。 这个问题是因为服务器名称不能正确解析到 服务器IP地址。这样就需要在</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\ WINDOWS \system32\drivers\etc</span><br></pre></td></tr></table></figure><p>文件夹下打开hosts文件里面把服务器名和IP地址绑定了，不会出现找到主机这样的问题了。</p><p>注意：</p><p>1、hosts文件配置 ，IP与计算机名中间为TAB空格。</p><p>2、如果在操作之前没有进行其他设置，直接修改hosts文件可能是解决问题的一种方法。确保在修改之前备份hosts文件，并添加服务器的IP地址和计算机名。如果问题仍然存在，可能需要考虑其他网络或服务器配置。建议在进行任何更改之前咨询网络管理员或系统支持，以确保正确性。</p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;出现问题：&lt;/p&gt;
 &lt;p&gt;使用Profwiz工具进行迁域之后，部分用户上报用友U8报表查询功能报错，提示&lt;strong&gt;不知道这样的主机&lt;/strong&gt;;&lt;strong&gt;UU登录失败&lt;/strong&gt;，如图所示。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/./Profwiz-2</summary>
+&lt;img src=&quot;/Profwiz-2/inde</summary>
       
     
     
