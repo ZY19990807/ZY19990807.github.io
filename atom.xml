@@ -37,12 +37,19 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://zy19990807.github.io/Profwiz-1/index.html"/>
-    <id>http://zy19990807.github.io/Profwiz-1/index.html</id>
+    <title>Profwiz迁域可能导致的问题-解决方案（二）</title>
+    <link href="http://zy19990807.github.io/Profwiz-2/index.html"/>
+    <id>http://zy19990807.github.io/Profwiz-2/index.html</id>
     <published>2024-01-15T02:00:22.000Z</published>
-    <updated>2024-01-23T05:29:26.216Z</updated>
+    <updated>2024-01-24T02:22:35.146Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="Profwiz迁域可能导致的问题-解决方案（二）"><a href="#Profwiz迁域可能导致的问题-解决方案（二）" class="headerlink" title="Profwiz迁域可能导致的问题-解决方案（二）"></a>Profwiz迁域可能导致的问题-解决方案（二）</h1><h3 id="出现问题"><a href="#出现问题" class="headerlink" title="出现问题"></a>出现问题</h3><p>使用Profwiz工具进行迁域之后，基本上我司所有的用户（Win10&#x2F;Win11，具体的操作系统版本号未查）都出现不同程度的Win Apps不能使用的情况。</p><ul><li>计算机属性、设置、个人性化设置等点击无反应，且无窗口弹出</li><li>原有桌面上或者FileServer的记事本无法打开，提示如图</li></ul><img src="/Profwiz-2/index/image-20240123141258689.png" class title="image-20240123141258689"><ul><li>Win Apss无法正常使用，如计算器、便笺、图片查看器等，且无窗口弹出。</li></ul><p>不同程度Win Apss无法使用是指：</p><ul><li><p>部分终端是迁域之后计算机属性、设置可以正常使用、记事本可以打开；</p></li><li><p>部分终端计算机属性、设置、记事本、WinApps等均无法打开，提示如上图。</p></li></ul><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><h3 id="Step1：登录本机账户"><a href="#Step1：登录本机账户" class="headerlink" title="Step1：登录本机账户"></a>Step1：登录本机账户</h3><p>退出域账户进入本机admin账户</p><img src="/Profwiz-2/index/image-20240124100100327.png" class title="image-20240124100100327"><h3 id="Step-2-本地管理员组"><a href="#Step-2-本地管理员组" class="headerlink" title="Step 2 本地管理员组"></a>Step 2 本地管理员组</h3><p>设置old domain(旧域)用户账户加入到本地administrator组</p><img src="/Profwiz-2/index/image-20240124100309106.png" class title="image-20240124100309106"><h3 id="Step-3-权限设置"><a href="#Step-3-权限设置" class="headerlink" title="Step 3:权限设置"></a>Step 3:权限设置</h3><p>进入new domain（新域）用户账户，设置隐藏文件可见后,在该路径下设置WindowsApps文件夹权限</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Program Files\WindowsApps</span><br></pre></td></tr></table></figure><p><strong>注意：这个地方因为账户已经是本地管理员，所以不用输入管理员账户，如果有提示，请重启电脑或者检查admin账户加域账户到本地管理员是否成功（Step2）</strong></p><img src="/Profwiz-2/index/image-20240124100419339.png" class title="image-20240124100419339"><img src="/Profwiz-2/index/image-20240124100731312.png" class title="image-20240124100731312">Step3完成后部分功能可见且使用正常<img src="/Profwiz-2/index/image-20240124100905641.png" class title="image-20240124100905641"><h3 id="Step-4-Powershell命令"><a href="#Step-4-Powershell命令" class="headerlink" title="Step 4 Powershell命令"></a>Step 4 Powershell命令</h3><p>仍旧在new domain（新域）用户账户下，打开Powershell </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**Get-AppXPackage -AllUsers | Foreach &#123;Add-AppxPackage -DisableDevelopmentMode -Register &quot;$($_.InstallLocation)\AppXManifest.xml&quot;&#125;** </span><br></pre></td></tr></table></figure><p>与应用商店关联的工具（便签、照片查看器等）可以正常使用，命令执行需要一定的时间，看到应用商店出现就证明已经完成修复，建议命令全部跑完，且期间不要有其他的操作。</p><h3 id="Step-5-用户权限删除"><a href="#Step-5-用户权限删除" class="headerlink" title="Step 5 用户权限删除"></a>Step 5 用户权限删除</h3><p>在new domain（新域）用户账户下,或者本机账户下删除域账户用户管理员权限，重启即可</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><ol><li>实际操作发现，部分终端可能在添加WinApps文件夹权限的时候报错，域控下找不到该用户，如果又出现该问题可跳过该步骤，继续后面操作。</li><li>Powershell命令不一定非要完全跑完，当用户任务栏中原本消失的图标（邮箱、应用商店）出现即可。</li></ol><h3 id="Profwiz官方论坛解决方案"><a href="#Profwiz官方论坛解决方案" class="headerlink" title="Profwiz官方论坛解决方案"></a>Profwiz官方论坛解决方案</h3><p><a href="https://forum.forensit.com/win-10-apps-do-not-work-after-migration_topic2053.html">Win 10 apps do not work after migration - ForensiT Forums</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Profwiz迁域可能导致的问题-解决方案（二）&quot;&gt;&lt;a href=&quot;#Profwiz迁域可能导致的问题-解决方案（二）&quot; class=&quot;headerlink&quot; title=&quot;Profwiz迁域可能导致的问题-解决方案（二）&quot;&gt;&lt;/a&gt;Profwiz迁域可能导致的</summary>
+      
     
     
     
@@ -50,19 +57,12 @@
   </entry>
   
   <entry>
-    <title>Profwiz迁域可能导致的问题-解决方案（二）</title>
-    <link href="http://zy19990807.github.io/Profwiz-2/index.html"/>
-    <id>http://zy19990807.github.io/Profwiz-2/index.html</id>
+    <title></title>
+    <link href="http://zy19990807.github.io/Profwiz-1/index.html"/>
+    <id>http://zy19990807.github.io/Profwiz-1/index.html</id>
     <published>2024-01-15T02:00:22.000Z</published>
-    <updated>2024-01-24T02:20:49.692Z</updated>
+    <updated>2024-01-23T05:29:26.216Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Profwiz迁域可能导致的问题-解决方案（二）"><a href="#Profwiz迁域可能导致的问题-解决方案（二）" class="headerlink" title="Profwiz迁域可能导致的问题-解决方案（二）"></a>Profwiz迁域可能导致的问题-解决方案（二）</h1><h3 id="出现问题"><a href="#出现问题" class="headerlink" title="出现问题"></a>出现问题</h3><p>使用Profwiz工具进行迁域之后，基本上我司所有的用户（Win10&#x2F;Win11，具体的操作系统版本号未查）都出现不同程度的Win Apps不能使用的情况。</p><ul><li>计算机属性、设置、个人性化设置等点击无反应，且无窗口弹出</li><li>原有桌面上或者FileServer的记事本无法打开，提示如图</li></ul><img src="/Profwiz-2/index/image-20240123141258689.png" class title="image-20240123141258689"><ul><li>Win Apss无法正常使用，如计算器、便笺、图片查看器等，且无窗口弹出。</li></ul><p>不同程度Win Apss无法使用是指：</p><ul><li><p>部分终端是迁域之后计算机属性、设置可以正常使用、记事本可以打开；</p></li><li><p>部分终端计算机属性、设置、记事本、WinApps等均无法打开，提示如上图。</p></li></ul><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><h3 id="Step1"><a href="#Step1" class="headerlink" title="Step1"></a>Step1</h3><p>退出域账户进入本机admin账户</p><img src="/Profwiz-2/index/image-20240124100100327.png" class title="image-20240124100100327"><h3 id="Step-2"><a href="#Step-2" class="headerlink" title="Step 2"></a>Step 2</h3><p>设置old domain(旧域)用户账户加入到本地administrator组</p><img src="/Profwiz-2/index/image-20240124100309106.png" class title="image-20240124100309106"><h3 id="Step-3"><a href="#Step-3" class="headerlink" title="Step 3:"></a>Step 3:</h3><p>进入new domain（新域）用户账户，设置隐藏文件可见后,在该路径下设置WindowsApps文件夹权限</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Program Files\WindowsApps</span><br></pre></td></tr></table></figure><p><strong>注意：这个地方因为账户已经是本地管理员，所以不用输入管理员账户，如果有提示，请重启电脑或者检查admin账户加域账户到本地管理员是否成功（Step2）</strong></p><img src="/Profwiz-2/index/image-20240124100419339.png" class title="image-20240124100419339"><img src="/Profwiz-2/index/image-20240124100731312.png" class title="image-20240124100731312">Step3完成后部分功能可见且使用正常<img src="/Profwiz-2/index/image-20240124100905641.png" class title="image-20240124100905641"><h3 id="Step-4"><a href="#Step-4" class="headerlink" title="Step 4"></a>Step 4</h3><p>仍旧在new domain（新域）用户账户下，打开Powershell </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**Get-AppXPackage -AllUsers | Foreach &#123;Add-AppxPackage -DisableDevelopmentMode -Register &quot;$($_.InstallLocation)\AppXManifest.xml&quot;&#125;** </span><br></pre></td></tr></table></figure><p>与应用商店关联的工具（便签、照片查看器等）可以正常使用，命令执行需要一定的时间，看到应用商店出现就证明已经完成修复，建议命令全部跑完，且期间不要有其他的操作。</p><h3 id="Step-5"><a href="#Step-5" class="headerlink" title="Step 5"></a>Step 5</h3><p>在new domain（新域）用户账户下,或者本机账户下删除域账户用户管理员权限，重启即可</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><ol><li>实际操作发现，部分终端可能在添加WinApps文件夹权限的时候报错，域控下找不到该用户，如果又出现该问题可跳过该步骤，继续后面操作。</li><li>Powershell命令不一定非要完全跑完，当用户任务栏中原本消失的图标（邮箱、应用商店）出现即可。</li></ol><h3 id="Profwiz官方论坛解决方案"><a href="#Profwiz官方论坛解决方案" class="headerlink" title="Profwiz官方论坛解决方案"></a>Profwiz官方论坛解决方案</h3><p><a href="https://forum.forensit.com/win-10-apps-do-not-work-after-migration_topic2053.html">Win 10 apps do not work after migration - ForensiT Forums</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Profwiz迁域可能导致的问题-解决方案（二）&quot;&gt;&lt;a href=&quot;#Profwiz迁域可能导致的问题-解决方案（二）&quot; class=&quot;headerlink&quot; title=&quot;Profwiz迁域可能导致的问题-解决方案（二）&quot;&gt;&lt;/a&gt;Profwiz迁域可能导致的</summary>
-      
     
     
     
