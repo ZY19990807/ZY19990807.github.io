@@ -6,7 +6,7 @@
   <link href="http://zy19990807.github.io/atom.xml" rel="self"/>
   
   <link href="http://zy19990807.github.io/"/>
-  <updated>2024-01-24T06:05:05.496Z</updated>
+  <updated>2024-01-24T09:14:24.636Z</updated>
   <id>http://zy19990807.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Edge浏览器设置解决主页重定向到中国区的问题</title>
+    <link href="http://zy19990807.github.io/edge-coplit%20setting/index.html"/>
+    <id>http://zy19990807.github.io/edge-coplit%20setting/index.html</id>
+    <published>2024-01-24T09:00:00.000Z</published>
+    <updated>2024-01-24T09:14:24.636Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Edge浏览器设置解决主页重定向到中国区的问题"><a href="#Edge浏览器设置解决主页重定向到中国区的问题" class="headerlink" title="Edge浏览器设置解决主页重定向到中国区的问题"></a>Edge浏览器设置解决主页重定向到中国区的问题</h1><p><strong>为了方式bing自动重定向到中国地区，导致coplit对话页面刷新，请进行如下设置</strong></p><h3 id="Step1-打开edge设置"><a href="#Step1-打开edge设置" class="headerlink" title="Step1:打开edge设置"></a>Step1:打开edge设置</h3><img src="/edge-coplit%20setting/index/clip_image002.jpg" class title="图形用户界面, 文本, 应用程序, 电子邮件 描述已自动生成"><h3 id="Step2-隐私、搜索和服务"><a href="#Step2-隐私、搜索和服务" class="headerlink" title="Step2:隐私、搜索和服务"></a>Step2:隐私、搜索和服务</h3><img src="/edge-coplit%20setting/index/clip_image004.jpg" class title="图形用户界面, 文本, 应用程序, 电子邮件 描述已自动生成"><p>地址栏和搜索</p><img src="/edge-coplit%20setting/index/clip_image006.jpg" class title="图形用户界面, 应用程序 描述已自动生成"><p>搜索引擎管理</p><img src="/edge-coplit%20setting/index/clip_image008.jpg" class title="图形用户界面, 应用程序, 电子邮件 描述已自动生成"><p>添加搜索引擎</p><img src="/edge-coplit%20setting/index/clip_image010.jpg" class title="图形用户界面 描述已自动生成"><p>设置如下</p><ul><li>搜索引擎：必应</li><li>快捷方式：</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bing.com</span><br></pre></td></tr></table></figure><ul><li>以 %s 代替查询的</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">URL: &#123;bing:baseURL&#125;search?q=%s&amp;&#123;bing:cvid&#125;&#123;bing:msb&#125;&#123;google:assistedQueryStats&#125;</span><br></pre></td></tr></table></figure><p>返回上一级选择刚刚的设置</p><img src="/edge-coplit%20setting/index/clip_image012.jpg" class title="图形用户界面, 应用程序 描述已自动生成"><h3 id="Step3-点击左侧开始、主页和标签页，添加新页面"><a href="#Step3-点击左侧开始、主页和标签页，添加新页面" class="headerlink" title="Step3:点击左侧开始、主页和标签页，添加新页面"></a>Step3:点击左侧开始、主页和标签页，添加新页面</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.bing.com/?setlang=zh-Hans</span><br></pre></td></tr></table></figure><img src="/edge-coplit%20setting/index/clip_image014.jpg" class title="图形用户界面, 应用程序 描述已自动生成"><p>地区为美国，但显示语言为中国，完成效果如图</p><img src="/edge-coplit%20setting/index/clip_image016.jpg" class title="图形用户界面, 网站 描述已自动生成">]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Edge浏览器设置解决主页重定向到中国区的问题&quot;&gt;&lt;a href=&quot;#Edge浏览器设置解决主页重定向到中国区的问题&quot; class=&quot;headerlink&quot; title=&quot;Edge浏览器设置解决主页重定向到中国区的问题&quot;&gt;&lt;/a&gt;Edge浏览器设置解决主页重定向到</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Profwiz迁域可能导致的问题-解决方案（二）</title>
