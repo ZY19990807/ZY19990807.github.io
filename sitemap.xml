@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zy19990807.github.io/edge-coplit%20setting/index.html</loc>
+    <loc>http://zy19990807.github.io/20230115Profwiz-2/index.html</loc>
     
-    <lastmod>2024-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/cross-domain%20authentication/index.html</loc>
-    
-    <lastmod>2024-01-24</lastmod>
+    <lastmod>2024-01-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/Profwiz-2/index.html</loc>
+    <loc>http://zy19990807.github.io/20231226Profwiz-1/index.html</loc>
     
-    <lastmod>2024-01-24</lastmod>
+    <lastmod>2024-01-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/Profwiz-1/index.html</loc>
+    <loc>http://zy19990807.github.io/20240117edge-coplit%20setting/index.html</loc>
     
-    <lastmod>2024-01-24</lastmod>
+    <lastmod>2024-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/2023120720231207cross-domain%20authentication/index.html</loc>
+    
+    <lastmod>2024-01-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +67,7 @@
 
   <url>
     <loc>http://zy19990807.github.io/</loc>
-    <lastmod>2024-01-24</lastmod>
+    <lastmod>2024-01-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
