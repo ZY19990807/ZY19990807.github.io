@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zy19990807.github.io/20231226Profwiz-1/index.html</loc>
+    
+    <lastmod>2024-01-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://zy19990807.github.io/20231220Profwiz-0/index.html</loc>
     
     <lastmod>2024-01-26</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>http://zy19990807.github.io/20240115Profwiz-2/index.html</loc>
-    
-    <lastmod>2024-01-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/20231226Profwiz-1/index.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -104,14 +104,14 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/tags/Profwiz%EF%BC%8CWin-Apps/</loc>
+    <loc>http://zy19990807.github.io/tags/%E8%B7%A8%E5%9F%9F%E4%BF%A1%E4%BB%BB%E5%85%B3%E7%B3%BB/</loc>
     <lastmod>2024-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/tags/%E8%B7%A8%E5%9F%9F%E4%BF%A1%E4%BB%BB%E5%85%B3%E7%B3%BB/</loc>
+    <loc>http://zy19990807.github.io/tags/Win-Apps/</loc>
     <lastmod>2024-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
