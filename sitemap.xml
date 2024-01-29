@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/20240117edge-coplit%20setting/index.html</loc>
+    <loc>http://zy19990807.github.io/20240115Profwiz-2/index.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/20240115Profwiz-2/index.html</loc>
+    <loc>http://zy19990807.github.io/20240117edge-coplit%20setting/index.html</loc>
     
     <lastmod>2024-01-26</lastmod>
     
@@ -113,28 +113,7 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/tags/Edge/</loc>
-    <lastmod>2024-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/Copilot/</loc>
-    <lastmod>2024-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://zy19990807.github.io/tags/Win-Apps/</loc>
-    <lastmod>2024-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/%E7%94%A8%E5%8F%8BU8/</loc>
     <lastmod>2024-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -149,6 +128,27 @@
   
   <url>
     <loc>http://zy19990807.github.io/tags/powershell/</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/%E7%94%A8%E5%8F%8BU8/</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/Edge/</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/Copilot/</loc>
     <lastmod>2024-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
