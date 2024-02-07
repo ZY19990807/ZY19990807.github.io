@@ -101,21 +101,14 @@
 
   
   <url>
-    <loc>http://zy19990807.github.io/tags/Edge/</loc>
-    <lastmod>2024-02-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/Copilot/</loc>
-    <lastmod>2024-02-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://zy19990807.github.io/tags/%E5%9F%9F%E8%B4%A6%E6%88%B7%E8%BF%81%E7%A7%BB/</loc>
+    <lastmod>2024-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/%E8%B7%A8%E5%9F%9F%E4%BF%A1%E4%BB%BB%E5%85%B3%E7%B3%BB/</loc>
     <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -150,14 +143,21 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/tags/%E7%94%A8%E5%8F%8BU8/</loc>
+    <loc>http://zy19990807.github.io/tags/Edge/</loc>
     <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/tags/%E8%B7%A8%E5%9F%9F%E4%BF%A1%E4%BB%BB%E5%85%B3%E7%B3%BB/</loc>
+    <loc>http://zy19990807.github.io/tags/Copilot/</loc>
+    <lastmod>2024-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/%E7%94%A8%E5%8F%8BU8/</loc>
     <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
