@@ -110,6 +110,15 @@
   </url>
   
   <url>
+    <loc>http://zy19990807.github.io/link/index.html</loc>
+    
+    <lastmod>2024-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://zy19990807.github.io/categories/index.html</loc>
     
     <lastmod>2024-01-11</lastmod>
@@ -120,15 +129,6 @@
   
   <url>
     <loc>http://zy19990807.github.io/tags/index.html</loc>
-    
-    <lastmod>2024-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/link/index.html</loc>
     
     <lastmod>2024-01-11</lastmod>
     
@@ -209,6 +209,13 @@
   </url>
   
   <url>
+    <loc>http://zy19990807.github.io/tags/%E7%94%A8%E5%8F%8BU8/</loc>
+    <lastmod>2024-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://zy19990807.github.io/tags/Sharepoint/</loc>
     <lastmod>2024-12-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -224,13 +231,6 @@
   
   <url>
     <loc>http://zy19990807.github.io/tags/Teams/</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/%E7%94%A8%E5%8F%8BU8/</loc>
     <lastmod>2024-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
