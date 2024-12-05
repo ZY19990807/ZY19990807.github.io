@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zy19990807.github.io/20231217-Domain-migration-script/index.html</loc>
+    
+    <lastmod>2024-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://zy19990807.github.io/2024072321Csharepoint/index.html</loc>
     
     <lastmod>2024-12-05</lastmod>
@@ -83,15 +92,6 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/20231217-Domain-migration-script/index.html</loc>
-    
-    <lastmod>2024-01-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://zy19990807.github.io/20240115Profwiz-2/index.html</loc>
     
     <lastmod>2024-01-26</lastmod>
@@ -146,28 +146,14 @@
 
   
   <url>
-    <loc>http://zy19990807.github.io/tags/%E5%9F%9F%E8%B4%A6%E6%88%B7%E8%BF%81%E7%A7%BB/</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/Profwiz/</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/Win-Apps/</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://zy19990807.github.io/tags/Outlook/</loc>
+    <lastmod>2024-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/%E5%9F%9F%E8%B4%A6%E6%88%B7%E8%BF%81%E7%A7%BB/</loc>
     <lastmod>2024-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -181,14 +167,7 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/tags/%E8%87%AA%E5%8A%A8%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/powershell/</loc>
+    <loc>http://zy19990807.github.io/tags/Profwiz/</loc>
     <lastmod>2024-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -196,6 +175,20 @@
   
   <url>
     <loc>http://zy19990807.github.io/tags/%E7%94%A8%E5%8F%8BU8/</loc>
+    <lastmod>2024-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/%E8%87%AA%E5%8A%A8%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2024-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/Powershell/</loc>
     <lastmod>2024-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -210,6 +203,27 @@
   
   <url>
     <loc>http://zy19990807.github.io/tags/Copilot/</loc>
+    <lastmod>2024-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/Win-Apps/</loc>
+    <lastmod>2024-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/Sharepoint/</loc>
+    <lastmod>2024-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%EF%BC%8CPowershell/</loc>
     <lastmod>2024-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -231,20 +245,6 @@
   
   <url>
     <loc>http://zy19990807.github.io/tags/Teams/</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/Sharepoint/</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94%EF%BC%8CPowershell/</loc>
     <lastmod>2024-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
