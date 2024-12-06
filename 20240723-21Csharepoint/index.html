@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>世纪互联sharepoint文件批量下载 | Pepper's Site</title><meta name="author" content="Pepper Zhang"><meta name="copyright" content="Pepper Zhang"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="世纪互联sharepoint文件批量下载问题描述世纪互联sharepoint文件库文件无法多选或者文件夹下载  解决方案概述通过Powershell可以进行下载，下面将具体说明这些设置 具体操作步骤Step 0 升级到Powershell7.0以上版本Step 0.1 检查当前版本打开PowerShell，输入以下命令 1$PSVersionTable.PSVersion   终端将显示当前的Po">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>世纪互联sharepoint文件批量下载 | Pepper's Site</title><meta name="author" content="Pepper Zhang"><meta name="copyright" content="Pepper Zhang"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="世纪互联sharepoint文件批量下载问题描述世纪互联sharepoint文件库文件无法多选或者文件夹下载     解决方案概述通过Powershell可以进行下载，下面将具体说明这些设置 具体操作步骤Step 0 升级到Powershell7.0以上版本Step 0.1 检查当前版本打开PowerShell，输入以下命令 1$PSVersionTable.PSVersion    终端将显示当">
 <meta property="og:type" content="article">
 <meta property="og:title" content="世纪互联sharepoint文件批量下载">
 <meta property="og:url" content="http://zy19990807.github.io/20240723-21Csharepoint/index.html">
 <meta property="og:site_name" content="Pepper&#39;s Site">
-<meta property="og:description" content="世纪互联sharepoint文件批量下载问题描述世纪互联sharepoint文件库文件无法多选或者文件夹下载  解决方案概述通过Powershell可以进行下载，下面将具体说明这些设置 具体操作步骤Step 0 升级到Powershell7.0以上版本Step 0.1 检查当前版本打开PowerShell，输入以下命令 1$PSVersionTable.PSVersion   终端将显示当前的Po">
+<meta property="og:description" content="世纪互联sharepoint文件批量下载问题描述世纪互联sharepoint文件库文件无法多选或者文件夹下载     解决方案概述通过Powershell可以进行下载，下面将具体说明这些设置 具体操作步骤Step 0 升级到Powershell7.0以上版本Step 0.1 检查当前版本打开PowerShell，输入以下命令 1$PSVersionTable.PSVersion    终端将显示当">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://zy19990807.github.io/images/blue.jpg">
 <meta property="article:published_time" content="2024-07-23T02:00:00.000Z">
@@ -157,18 +157,23 @@
       detectApple()
     })(window)</script><meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="Pepper's Site" type="application/atom+xml">
 </head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/blue.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/images/banner.png')"><nav id="nav"><span id="blog-info"><a href="/" title="Pepper's Site"><span class="site-name">Pepper's Site</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">世纪互联sharepoint文件批量下载</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-07-23T02:00:00.000Z" title="发表于 2024-07-23 10:00:00">2024-07-23</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-12-06T02:29:08.165Z" title="更新于 2024-12-06 10:29:08">2024-12-06</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="世纪互联sharepoint文件批量下载"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="世纪互联sharepoint文件批量下载"><a href="#世纪互联sharepoint文件批量下载" class="headerlink" title="世纪互联sharepoint文件批量下载"></a>世纪互联sharepoint文件批量下载</h1><h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>世纪互联sharepoint文件库文件无法多选或者文件夹下载</p>
-<p><img src="/20240723-21Csharepoint/image-20241204141150413.png" alt="image-20241204141150413"></p>
+<img src="/20240723-21Csharepoint/index/image-20241204141150413.png" class title="image-20241204141150413">
+
+
+
 <h2 id="解决方案概述"><a href="#解决方案概述" class="headerlink" title="解决方案概述"></a>解决方案概述</h2><p>通过Powershell可以进行下载，下面将具体说明这些设置</p>
 <h2 id="具体操作步骤"><a href="#具体操作步骤" class="headerlink" title="具体操作步骤"></a>具体操作步骤</h2><h4 id="Step-0-升级到Powershell7-0以上版本"><a href="#Step-0-升级到Powershell7-0以上版本" class="headerlink" title="Step 0 升级到Powershell7.0以上版本"></a><strong>Step 0</strong> <strong>升级到Powershell7.0以上版本</strong></h4><h5 id="Step-0-1-检查当前版本"><a href="#Step-0-1-检查当前版本" class="headerlink" title="Step 0.1 检查当前版本"></a><strong>Step 0.1 检查当前版本</strong></h5><p>打开PowerShell，输入以下命令</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$PSVersionTable.PSVersion</span><br></pre></td></tr></table></figure>
 
-<p><img src="/20240723-21Csharepoint/image-20241204141353684.png" alt="image-20241204141353684"></p>
+<img src="/20240723-21Csharepoint/index/image-20241204141353684.png" class title="image-20241204141353684">
+
 <p>终端将显示当前的PowerShell版本号，如图所示</p>
 <h5 id="Step-0-2-搜索最新版本的-PowerShell"><a href="#Step-0-2-搜索最新版本的-PowerShell" class="headerlink" title="Step 0.2 搜索最新版本的 PowerShell"></a><strong>Step 0.2</strong> 搜索最新版本的 PowerShell</h5><p>在终端中输入以下命令</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget search Microsoft.PowerShell</span><br></pre></td></tr></table></figure>
 
 <p>这个会显示当前最新的可用的版本 正常版和预览版。</p>
-<p><img src="/20240723-21Csharepoint/image-20241204141425657.png" alt="image-20241204141425657"></p>
+<img src="/20240723-21Csharepoint/index/image-20241204141425657.png" class title="image-20241204141425657">
+
 <h5 id="Step-0-3-安装新版本"><a href="#Step-0-3-安装新版本" class="headerlink" title="Step 0.3 安装新版本"></a><strong>Step 0.3 安装新版本</strong></h5><p>使用id参数安装PowerShell或PowerShell预览版</p>
 <p><em>#</em> <em>使用 Winget 安装 PowerShell</em></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install --id Microsoft.Powershell --source winget</span><br></pre></td></tr></table></figure>
@@ -178,10 +183,12 @@
 
 <h5 id="Step-0-4-验证更新"><a href="#Step-0-4-验证更新" class="headerlink" title="Step 0.4 验证更新"></a><strong>Step 0.4</strong> <strong>验证更新</strong></h5><p>查阅文档 发现5.1和7版本可以共存，建议旧版本不要卸载，目前7尚未完全兼容5</p>
 <p>更新后程序路径到”C:\Program Files\PowerShell\7\</p>
-<p><img src="/20240723-21Csharepoint/clip_image006.jpg" alt="img"></p>
+<img src="/20240723-21Csharepoint/index/clip_image006.jpg" class title="img">
+
 <p>在文件夹下面打开”pwsh.exe”，即可以使用powershell 7.3版本</p>
 <p>下面是全部下载过程</p>
-<p><img src="/20240723-21Csharepoint/clip_image008.jpg" alt="img"></p>
+<img src="/20240723-21Csharepoint/index/clip_image008.jpg" class title="img">
+
 <p>以下内容都将继续已经完成powershell 7.X版本的安装</p>
 <p><strong>Step 1 安装PnP PowerShell模块</strong></p>
 <p>在C:\Program Files\PowerShell\7\”找到运行程序，右键点击并选择“以管理员身份运行”。</p>
@@ -192,7 +199,8 @@
 <p>一旦新版模块安装完成，使用以下命令连接 SharePoint：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Connect-PnPOnline -Url &quot;https://yourdomain.sharepoint.com/sites/yourfolder&quot; -Credentials (Get-Credential)</span><br></pre></td></tr></table></figure>
 
-<p><img src="/20240723-21Csharepoint/image-20241204142315754.png" alt="image-20241204142315754"></p>
+<img src="/20240723-21Csharepoint/index/image-20241204142315754.png" class title="image-20241204142315754">
+
 <p>可修改为在线验证方式，将会有弹窗进行web验证。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Connect-PnPOnline -Url &quot;https://yourdomain.sharepoint.com/sites/yourfolder&quot; -UseWebLogin</span><br></pre></td></tr></table></figure>
 
@@ -200,11 +208,13 @@
 <h5 id="Step-3-1-获取所有文件的路径"><a href="#Step-3-1-获取所有文件的路径" class="headerlink" title="Step 3.1 获取所有文件的路径"></a><strong>Step 3.1</strong> <strong>获取所有文件的路径</strong></h5><p>首先，可以列出所有文件的路径，以确保路径是正确的。以下脚本将列出文档库中所有文件的路径：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$libraryName = &quot;Shared Documents&quot;</span><br><span class="line"></span><br><span class="line"># 获取库中的所有文件</span><br><span class="line">$files = Get-PnPListItem -List $libraryName -PageSize 2000</span><br><span class="line"></span><br><span class="line">foreach ($file in $files) &#123;</span><br><span class="line">    $filePath = $file[&quot;FileRef&quot;]</span><br><span class="line">    Write-Host $filePath</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><img src="/20240723-21Csharepoint/image-20241204143244290.png" alt="image-20241204143244290"></p>
+<img src="/20240723-21Csharepoint/index/image-20241204143244290.png" class title="image-20241204143244290">
+
 <h5 id="Step-3-2-下载文件"><a href="#Step-3-2-下载文件" class="headerlink" title="Step 3.2 下载文件"></a><strong>Step 3.2 下载文件</strong></h5><p>确认路径格式正确后，再使用 Get-PnPListItem 命令下载文件。以下是一个示例脚本：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">$localPath = &quot;存放路径&quot;</span><br><span class="line">$libraryName = &quot;Shared Documents&quot;</span><br><span class="line"></span><br><span class="line"># 获取库中的所有文件（递归）</span><br><span class="line">$files = Get-PnPListItem -List $libraryName -PageSize 2000 -Query &quot;&lt;View Scope=&#x27;RecursiveAll&#x27;&gt;&lt;RowLimit Paged=&#x27;TRUE&#x27;&gt;5000&lt;/RowLimit&gt;&lt;/View&gt;&quot;</span><br><span class="line"></span><br><span class="line">foreach ($file in $files) &#123;</span><br><span class="line">    $filePath = $file[&quot;FileRef&quot;]</span><br><span class="line"></span><br><span class="line">    # 检查是否为文件</span><br><span class="line">    if ($filePath -notmatch &quot;/$&quot;) &#123;</span><br><span class="line">        $relativeFilePath = $filePath.Substring($filePath.IndexOf($libraryName) + $libraryName.Length).TrimStart(&quot;/&quot;)</span><br><span class="line">        $localFilePath = Join-Path -Path $localPath -ChildPath $relativeFilePath</span><br><span class="line"></span><br><span class="line">        # 创建本地目录</span><br><span class="line">        $localDirectory = [System.IO.Path]::GetDirectoryName($localFilePath)</span><br><span class="line">        if (-not (Test-Path -Path $localDirectory)) &#123;</span><br><span class="line">            New-Item -ItemType Directory -Path $localDirectory | Out-Null</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        # 下载文件</span><br><span class="line">        Write-Host &quot;Downloading $filePath to $localFilePath&quot;</span><br><span class="line">        Get-PnPFile -Url $filePath -Path $localDirectory -FileName ([System.IO.Path]::GetFileName($filePath)) -AsFile</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">        Write-Host &quot;Skipping folder: $filePath&quot;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p><img src="/20240723-21Csharepoint/image-20241204150301340.png" alt="image-20241204150301340"></p>
+<img src="/20240723-21Csharepoint/index/image-20241204150301340.png" class title="image-20241204150301340">
+
 <h2 id="其他说明"><a href="#其他说明" class="headerlink" title="其他说明"></a><strong>其他说明</strong></h2><h3 id="检查-PowerShell-版本"><a href="#检查-PowerShell-版本" class="headerlink" title="检查 PowerShell 版本"></a><strong>检查 PowerShell 版本</strong></h3><p>新版 PnP.PowerShell 模块可能需要较新的 PowerShell 版本（如 PowerShell 7.x）。请检查你的 PowerShell 版本：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$PSVersionTable.PSVersion</span><br></pre></td></tr></table></figure>
 
