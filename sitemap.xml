@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zy19990807.github.io/20240723-21Csharepoint/index.html</loc>
+    
+    <lastmod>2024-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://zy19990807.github.io/20240806O365appstoextra/index.html</loc>
     
     <lastmod>2024-12-06</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>http://zy19990807.github.io/20240508OutlookcalenderPermission/index.html</loc>
-    
-    <lastmod>2024-12-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/2024072321Csharepoint/index.html</loc>
     
     <lastmod>2024-12-06</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/link/index.html</loc>
+    <loc>http://zy19990807.github.io/tags/index.html</loc>
     
     <lastmod>2024-01-11</lastmod>
     
@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/tags/index.html</loc>
+    <loc>http://zy19990807.github.io/link/index.html</loc>
     
     <lastmod>2024-01-11</lastmod>
     
@@ -160,6 +160,20 @@
   </url>
   
   <url>
+    <loc>http://zy19990807.github.io/tags/Profwiz/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/Win-Apps/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://zy19990807.github.io/tags/%E8%87%AA%E5%8A%A8%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -181,35 +195,7 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/tags/Profwiz/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/Win-Apps/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://zy19990807.github.io/tags/%E7%94%A8%E5%8F%8BU8/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/Edge/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/Copilot/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -238,6 +224,20 @@
   
   <url>
     <loc>http://zy19990807.github.io/tags/%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/Edge/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/Copilot/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
