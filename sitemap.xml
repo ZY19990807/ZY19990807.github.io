@@ -110,6 +110,15 @@
   </url>
   
   <url>
+    <loc>http://zy19990807.github.io/tags/index.html</loc>
+    
+    <lastmod>2024-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://zy19990807.github.io/link/index.html</loc>
     
     <lastmod>2024-01-11</lastmod>
@@ -120,15 +129,6 @@
   
   <url>
     <loc>http://zy19990807.github.io/categories/index.html</loc>
-    
-    <lastmod>2024-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/index.html</loc>
     
     <lastmod>2024-01-11</lastmod>
     
@@ -153,13 +153,6 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/tags/Profwiz/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://zy19990807.github.io/tags/%E8%B7%A8%E5%9F%9F%E4%BF%A1%E4%BB%BB%E5%85%B3%E7%B3%BB/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -167,7 +160,7 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/tags/Outlook/</loc>
+    <loc>http://zy19990807.github.io/tags/Profwiz/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -188,28 +181,7 @@
   </url>
   
   <url>
-    <loc>http://zy19990807.github.io/tags/%E7%94%A8%E5%8F%8BU8/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/Sharepoint/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/Onedrive/</loc>
-    <lastmod>2024-12-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zy19990807.github.io/tags/Teams/</loc>
+    <loc>http://zy19990807.github.io/tags/Outlook/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -217,6 +189,13 @@
   
   <url>
     <loc>http://zy19990807.github.io/tags/Win-Apps/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/%E7%94%A8%E5%8F%8BU8/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -237,7 +216,28 @@
   </url>
   
   <url>
+    <loc>http://zy19990807.github.io/tags/Sharepoint/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://zy19990807.github.io/tags/%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/Onedrive/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zy19990807.github.io/tags/Teams/</loc>
     <lastmod>2024-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
