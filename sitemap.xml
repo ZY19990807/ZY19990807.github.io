@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>http://thepathfinder.top/link/index.html</loc>
+    <loc>http://thepathfinder.top/categories/index.html</loc>
     
     <lastmod>2024-01-11</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>http://thepathfinder.top/categories/index.html</loc>
+    <loc>http://thepathfinder.top/link/index.html</loc>
     
     <lastmod>2024-01-11</lastmod>
     
@@ -146,42 +146,7 @@
 
   
   <url>
-    <loc>http://thepathfinder.top/tags/Outlook/</loc>
-    <lastmod>2024-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://thepathfinder.top/tags/%E5%9F%9F%E8%B4%A6%E6%88%B7%E8%BF%81%E7%A7%BB/</loc>
-    <lastmod>2024-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/tags/%E8%B7%A8%E5%9F%9F%E4%BF%A1%E4%BB%BB%E5%85%B3%E7%B3%BB/</loc>
-    <lastmod>2024-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/tags/Profwiz/</loc>
-    <lastmod>2024-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/tags/Win-Apps/</loc>
-    <lastmod>2024-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/tags/%E7%94%A8%E5%8F%8BU8/</loc>
     <lastmod>2024-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -202,6 +167,27 @@
   </url>
   
   <url>
+    <loc>http://thepathfinder.top/tags/%E8%B7%A8%E5%9F%9F%E4%BF%A1%E4%BB%BB%E5%85%B3%E7%B3%BB/</loc>
+    <lastmod>2024-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/tags/Profwiz/</loc>
+    <lastmod>2024-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/tags/Outlook/</loc>
+    <lastmod>2024-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://thepathfinder.top/tags/Edge/</loc>
     <lastmod>2024-12-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -216,14 +202,21 @@
   </url>
   
   <url>
-    <loc>http://thepathfinder.top/tags/Sharepoint/</loc>
+    <loc>http://thepathfinder.top/tags/%E7%94%A8%E5%8F%8BU8/</loc>
     <lastmod>2024-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://thepathfinder.top/tags/%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94/</loc>
+    <loc>http://thepathfinder.top/tags/Win-Apps/</loc>
+    <lastmod>2024-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/tags/Sharepoint/</loc>
     <lastmod>2024-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -238,6 +231,13 @@
   
   <url>
     <loc>http://thepathfinder.top/tags/Teams/</loc>
+    <lastmod>2024-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/tags/%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94/</loc>
     <lastmod>2024-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
