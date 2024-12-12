@@ -3601,7 +3601,7 @@ h1.page-title + .tag-cloud-list {
   }
 }
 #page-header.post-bg {
-  width: 100%;
+  width: 20%;
   height: auto;
   object-fit: cover;
   width: auto;
