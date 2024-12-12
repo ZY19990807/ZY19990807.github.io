@@ -11,7 +11,7 @@
 <meta property="article:author" content="Pepper Zhang">
 <meta property="article:tag" content="Outlook">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://thepathfinder.top/images/blue.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://thepathfinder.top/20240508OutlookcalenderPermission/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+<meta name="twitter:image" content="http://thepathfinder.top/images/blue.jpg"><link rel="shortcut icon" href="/imges/PZ.jpg"><link rel="canonical" href="http://thepathfinder.top/20240508OutlookcalenderPermission/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
   root: '/',
   algolia: undefined,
   localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
@@ -181,28 +181,28 @@
 
 
 <h2 id="Powershell命令"><a href="#Powershell命令" class="headerlink" title="Powershell命令"></a>Powershell命令</h2><h4 id="Step-1-确认日历文件夹路径"><a href="#Step-1-确认日历文件夹路径" class="headerlink" title="Step 1: 确认日历文件夹路径"></a><strong>Step 1: 确认日历文件夹路径</strong></h4><p>首先，确认目标邮箱中的日历文件夹路径。如果你不确定日历文件夹的具体路径，可以通过以下命令列出邮箱中的所有文件夹：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Get-MailboxFolderStatistics -Identity &quot;上级邮箱&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get</span><span class="operator">-</span><span class="variable">MailboxFolderStatistics</span> <span class="operator">-</span><span class="built_in">Identity</span> <span class="string">&quot;上级邮箱&quot;</span></span><br></pre></td></tr></table></figure>
 
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20240508OutlookcalenderPermission/index/image-20241204133809545.png" class title="image-20241204133809545">
 
 <p>这个命令会列出<code>上级邮箱</code>邮箱中的所有文件夹，包括<code>日历</code>文件夹（如果存在）。在输出中，找到类似以下的行：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">plaintext复制代码FolderPath               FolderName               ItemsInFolder</span><br><span class="line">----------               ----------               --------------</span><br><span class="line">\日历                     日历                      50</span><br></pre></td></tr></table></figure>
+<figure class="highlight brainfuck"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">plaintext复制代码FolderPath               FolderName               ItemsInFolder</span></span><br><span class="line"><span class="literal">----------</span>               <span class="literal">----------</span>               <span class="literal">--------------</span></span><br><span class="line"><span class="comment">\日历                     日历                      50</span></span><br></pre></td></tr></table></figure>
 
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20240508OutlookcalenderPermission/index/image-20241204134017299.png" class title="image-20241204134017299">
 
 <p>确认文件夹路径，例如上面所示的<code>\日历</code>。</p>
 <h4 id="Step-2-设置文件夹权限"><a href="#Step-2-设置文件夹权限" class="headerlink" title="Step 2: 设置文件夹权限"></a><strong>Step 2: 设置文件夹权限</strong></h4><p>如果确认了日历文件夹路径，并且要为用户设置权限，可以使用<code>Add-MailboxFolderPermission</code>命令来授予权限。假设目标文件夹是<code>日历</code>，且希望为用户<code>下属邮箱</code>授予<code>Reviewer</code>权限（即查看权限）：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Add-MailboxFolderPermission -Identity &quot;上级邮箱:\日历&quot; -User &quot;下属邮箱&quot; -AccessRights Reviewer</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Add</span><span class="operator">-</span>MailboxFolderPermission <span class="operator">-</span><span class="keyword">Identity</span> &quot;上级邮箱:\日历&quot; <span class="operator">-</span><span class="keyword">User</span> &quot;下属邮箱&quot; <span class="operator">-</span>AccessRights Reviewer</span><br></pre></td></tr></table></figure>
 
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20240508OutlookcalenderPermission/index/image-20241204134110867.png" class title="image-20241204134110867">该命令会将`Reviewer`权限授予`下属邮箱`用户，使其能够查看`上级邮箱`邮箱的日历。
 
 <h4 id="Step-3-验证权限"><a href="#Step-3-验证权限" class="headerlink" title="Step 3: 验证权限"></a><strong>Step 3: 验证权限</strong></h4><p>设置权限后，您可以通过以下命令验证权限是否已经正确设置：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Get-MailboxFolderPermission -Identity &quot;上级邮箱:\日历&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get</span><span class="operator">-</span><span class="variable">MailboxFolderPermission</span> <span class="operator">-</span><span class="built_in">Identity</span> <span class="string">&quot;上级邮箱:\日历&quot;</span></span><br></pre></td></tr></table></figure>
 
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20240508OutlookcalenderPermission/index/image-20241204134131800.png" class title="image-20241204134131800">如果设置成功，输出将显示`下属邮箱`用户以及其权限类型（例如`Reviewer`)。
 
 <p>查看详细信息</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Get-MailboxFolderPermission -Identity &quot;上级邮箱:\日历&quot; | Format-List</span><br></pre></td></tr></table></figure>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get</span><span class="operator">-</span><span class="variable">MailboxFolderPermission</span> <span class="operator">-</span><span class="built_in">Identity</span> <span class="string">&quot;上级邮箱:\日历&quot;</span> <span class="operator">|</span> <span class="built_in">Format</span><span class="operator">-</span><span class="built_in">List</span></span><br></pre></td></tr></table></figure>
 
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20240508OutlookcalenderPermission/index/image-20241204135043727.png" class title="image-20241204135043727">
 
@@ -210,7 +210,7 @@
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20240508OutlookcalenderPermission/index/image-20241204134235343.png" class title="image-20241204134235343">
 
 <h4 id="Step-4-删除文件夹权限"><a href="#Step-4-删除文件夹权限" class="headerlink" title="Step 4: 删除文件夹权限"></a><strong>Step 4: 删除文件夹权限</strong></h4><p>如果需要删除某个用户的权限，可以使用<code>Remove-MailboxFolderPermission</code>命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Remove-MailboxFolderPermission -Identity &quot;上级邮箱:\日历&quot; -User &quot;下属邮箱&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">Remove-MailboxFolderPermission -Identity &quot;上级邮箱:\日历&quot; -User &quot;下属邮箱&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>该命令会删除<code>下属邮箱</code>用户对<code>上级邮箱</code>邮箱日历文件夹的所有权限。</p>
 <p>注意删除的时候User名称一定要对应。</p>

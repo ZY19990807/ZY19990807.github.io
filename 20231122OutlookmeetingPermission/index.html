@@ -11,7 +11,7 @@
 <meta property="article:author" content="Pepper Zhang">
 <meta property="article:tag" content="Outlook">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://thepathfinder.top/images/blue.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://thepathfinder.top/20231122OutlookmeetingPermission/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+<meta name="twitter:image" content="http://thepathfinder.top/images/blue.jpg"><link rel="shortcut icon" href="/imges/PZ.jpg"><link rel="canonical" href="http://thepathfinder.top/20231122OutlookmeetingPermission/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
   root: '/',
   algolia: undefined,
   localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
@@ -171,13 +171,13 @@
 <p>所以大部分是控制会议室共享日历的权限，默认会议室共享日历是对所有用户开放的，即所有人添加了日历在Outlook中就可以看到会议室占用的详情。</p>
 <h2 id="具体操作步骤"><a href="#具体操作步骤" class="headerlink" title="具体操作步骤"></a>具体操作步骤</h2><h4 id="1-PowerShell-配置"><a href="#1-PowerShell-配置" class="headerlink" title="1. PowerShell 配置"></a>1. <strong>PowerShell 配置</strong></h4><p>为了执行这些命令，你需要配置 PowerShell 环境并确保能连接到 Exchange Online。</p>
 <h5 id="1-安装必要模块"><a href="#1-安装必要模块" class="headerlink" title="(1) 安装必要模块"></a>(1) <strong>安装必要模块</strong></h5><p>首先，安装 <code>ExchangeOnlineManagement</code> 模块：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Install-Module -Name ExchangeOnlineManagement</span><br></pre></td></tr></table></figure>
+<figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Install-<span class="keyword">Module</span> -<span class="keyword">Name</span> ExchangeOnlineManagement</span><br></pre></td></tr></table></figure>
 
 <p>如果遇到如图所示问题，提示没有NuGet存储库</p>
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20231122OutlookmeetingPermission/index/Snipaste_2024-12-03_10-08-26.jpg" class title="Snipaste_2024-12-03_10-08-26">
 
 <p>可以执行以下命令来修复：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]:Tls12;</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="symbol">System.Net.ServicePointManager</span>]:<span class="link">:SecurityProtocol = [System.Net.SecurityProtocolType]:Tls12;</span></span><br></pre></td></tr></table></figure>
 
 <p>上述命令执行后再次安装 <code>ExchangeOnlineManagement</code> 模块</p>
 
@@ -186,12 +186,12 @@
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20231122OutlookmeetingPermission/index/image-20241203110159388.png" class title="image-20241203110159388">
 
 <p>请运行以下命令允许脚本执行：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">set-ExecutionPolicy RemoteSigned</span><br></pre></td></tr></table></figure>
+<figure class="highlight dsconfig"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set-ExecutionPolicy</span> <span class="string">RemoteSigned</span></span><br></pre></td></tr></table></figure>
 
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20231122OutlookmeetingPermission/index/image-20241203110215316.png" class title="image-20241203110215316">然后选择“全部”确认。
 
 <h5 id="3-连接到-Exchange-Online"><a href="#3-连接到-Exchange-Online" class="headerlink" title="(3) 连接到 Exchange Online"></a>(3) <strong>连接到 Exchange Online</strong></h5><p>使用以下命令连接到 Exchange Online：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Connect-ExchangeOnline</span><br></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">Connect-ExchangeOnline</span></span><br></pre></td></tr></table></figure>
 
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20231122OutlookmeetingPermission/index/image-20241203110241798.png" class title="image-20241203110241798">
 
@@ -204,35 +204,35 @@
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20231122OutlookmeetingPermission/index/image-20241203130433525.png" class title="image-20241203130433525">
 
 <h4 id="3-获取会议室列表"><a href="#3-获取会议室列表" class="headerlink" title="3.获取会议室列表"></a>3.获取会议室列表</h4><p>另存为只有会议室Name的csv文件，后面将导出的文件称之为room.csv</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Get-Mailbox -RecipientTypeDetails RoomMailbox</span><br></pre></td></tr></table></figure>
+<figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Get-<span class="built_in">Mailbox</span> -RecipientTypeDetails RoomMailbox</span><br></pre></td></tr></table></figure>
 
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20231122OutlookmeetingPermission/index/image-20241203140715218.png" class title="image-20241203140715218">
 
 <h4 id="4-删除不必要的权限"><a href="#4-删除不必要的权限" class="headerlink" title="4. 删除不必要的权限"></a>4. <strong>删除不必要的权限</strong></h4><p>如果之前已经为某个用户设置了不必要的权限，或者进行了误操作，可以通过以下命令将其删除：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">remove-MailboxFolderPermission -Identity &quot;会议室邮箱地址:\calendar&quot; -User &quot;用户邮箱地址&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">remove-MailboxFolderPermission -Identity &quot;会议室邮箱地址:\calendar&quot; -User &quot;用户邮箱地址&quot;</span></span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><strong>作用</strong>：该命令将删除指定用户对指定会议室日历的访问权限。</li>
 </ul>
 <p>删除某个会议室批量用户权限</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Import-Csv C:\user.csv | foreach &#123;Remove-MailboxFolderPermission -Identity &quot;会议室邮箱地址:\Calendar&quot; -User $_.Mailbox -Confirm:$false&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Import</span>-Csv C:\<span class="keyword">user</span>.csv | <span class="keyword">foreach</span> &#123;Remove-MailboxFolderPermission -<span class="keyword">Identity</span> &quot;会议室邮箱地址:\Calendar&quot; -<span class="keyword">User</span> $_.Mailbox -Confirm:$<span class="keyword">false</span>&#125;</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><strong>作用</strong>：该命令将删除批量用户对会议室日历的访问权限。</li>
 </ul>
 <p>删除所有会议室所有用户权限</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Import-Csv C:\room.csv | ForEach-Object &#123; Import-Csv C:\user.csv | ForEach-Object &#123; Remove-MailboxFolderPermission -Identity &quot;$($_.RoomEmail):\Calendar&quot; -User $_.Mailbox -Confirm:$false &#125; &#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Import</span>-Csv C:\room.csv | <span class="keyword">ForEach</span>-<span class="keyword">Object</span> &#123; <span class="keyword">Import</span>-Csv C:\<span class="keyword">user</span>.csv | <span class="keyword">ForEach</span>-<span class="keyword">Object</span> &#123; Remove-MailboxFolderPermission -<span class="keyword">Identity</span> &quot;$($_.RoomEmail):\Calendar&quot; -<span class="keyword">User</span> $_.Mailbox -Confirm:$<span class="keyword">false</span> &#125; &#125;</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><strong>作用</strong>：该命令将删除批量用户对所有会议室日历的访问权限。</li>
 </ul>
 <h4 id="5-开启会议室权限"><a href="#5-开启会议室权限" class="headerlink" title="5.开启会议室权限"></a>5.开启会议室权限</h4><p>开启会议室权限,对所有的会议室开启一次即可</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Add-MailboxFolderPermission -Identity &quot;会议室邮箱地址:\Calendar&quot; -User Default -AccessRights Reviewer </span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Add</span><span class="operator">-</span>MailboxFolderPermission <span class="operator">-</span><span class="keyword">Identity</span> &quot;会议室邮箱地址:\Calendar&quot; <span class="operator">-</span><span class="keyword">User</span> <span class="keyword">Default</span> <span class="operator">-</span>AccessRights Reviewer </span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><strong>作用</strong>：开启一个会议室</li>
 </ul>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Import-Csv C:\rooms.csv | foreach &#123;Add-MailboxFolderPermission -Identity &quot;$($_.RoomName):\Calendar&quot; -User Default -AccessRights Reviewer&#125; </span><br></pre></td></tr></table></figure>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Import</span>-Csv C:\rooms.csv | <span class="keyword">foreach</span> &#123;<span class="keyword">Add</span>-MailboxFolderPermission -<span class="keyword">Identity</span> &quot;$($_.RoomName):\Calendar&quot; -<span class="keyword">User</span> <span class="keyword">Default</span> -AccessRights Reviewer&#125; </span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><strong>作用</strong>：开启所有的会议室</li>
@@ -241,22 +241,22 @@
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/20231122OutlookmeetingPermission/index/image-20241203141419141.png" class title="image-20241203141419141">
 
 <h4 id="6-相关Powershell命令"><a href="#6-相关Powershell命令" class="headerlink" title="6.相关Powershell命令"></a>6.相关Powershell命令</h4><h5 id="6-1-删除"><a href="#6-1-删除" class="headerlink" title="6.1.删除"></a>6.1.删除</h5><p>为某个会议室删除某个用户的权限</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">remove-MailboxFolderPermission -Identity  会议室邮箱地址:\calendar -User xxx@xxx</span><br></pre></td></tr></table></figure>
+<figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">remove-MailboxFolderPermission -Identity  会议室邮箱地址:\calendar -User xxx@xxx</span></span><br></pre></td></tr></table></figure>
 
 <h5 id="6-2-添加"><a href="#6-2-添加" class="headerlink" title="6.2.添加"></a>6.2.添加</h5><p>为某个会议室增加某个用户的权限</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Add-MailboxFolderPermission -Identity 会议室邮箱地址::\calendar -User xxx@xxx -AccessRights LimitedDetails </span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Add</span><span class="operator">-</span>MailboxFolderPermission <span class="operator">-</span><span class="keyword">Identity</span> 会议室邮箱地址::\calendar <span class="operator">-</span><span class="keyword">User</span> xxx<span class="variable">@xxx</span> <span class="operator">-</span>AccessRights LimitedDetails </span><br></pre></td></tr></table></figure>
 
 <h5 id="6-3-查看"><a href="#6-3-查看" class="headerlink" title="6.3.查看"></a>6.3.查看</h5><p>查看某个会议室中所有有权限的用户</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">get-MailboxFolderPermission -Identity xxx@xxx:\calendar |fl user（查看具体的用户名）</span><br></pre></td></tr></table></figure>
+<figure class="highlight dsconfig"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">get-MailboxFolderPermission</span> -<span class="string">Identity</span> <span class="string">xxx</span>@<span class="string">xxx</span>:\<span class="string">calendar</span> |<span class="string">fl</span> <span class="string">user</span>（查看具体的用户名）</span><br></pre></td></tr></table></figure>
 
 <h5 id="6-4-添加"><a href="#6-4-添加" class="headerlink" title="6.4.添加"></a>6.4.添加</h5><p>通过csv批量添加用户</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Import-Csv C:\user.csv | foreach &#123;add-MailboxFolderPermission -Identity 会议室邮箱地址:\calendar -user $_.Mailbox -AccessRights LimitedDetails &#125; </span><br></pre></td></tr></table></figure>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Import</span>-Csv C:\<span class="keyword">user</span>.csv | <span class="keyword">foreach</span> &#123;<span class="keyword">add</span>-MailboxFolderPermission -<span class="keyword">Identity</span> 会议室邮箱地址:\calendar -<span class="keyword">user</span> $_.Mailbox -AccessRights LimitedDetails &#125; </span><br></pre></td></tr></table></figure>
 
 <h5 id="6-5-增加新用户"><a href="#6-5-增加新用户" class="headerlink" title="6.5.增加新用户"></a>6.5.增加新用户</h5><h6 id="6-5-1-添加"><a href="#6-5-1-添加" class="headerlink" title="6.5.1.添加"></a>6.5.1.添加</h6><p>为xxx@xxx设置所有会议室的权限</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Import-Csv C:\room.csv | foreach &#123;Add-MailboxFolderPermission -Identity $_.User -user xxx@xxx</span><br><span class="line"></span><br><span class="line"> -AccessRights LimitedDetails &#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Import</span>-Csv C:\room.csv | <span class="keyword">foreach</span> &#123;<span class="keyword">Add</span>-MailboxFolderPermission -<span class="keyword">Identity</span> $_.<span class="keyword">User</span> -<span class="keyword">user</span> xxx@xxx</span><br><span class="line"></span><br><span class="line"> -AccessRights LimitedDetails &#125;</span><br></pre></td></tr></table></figure>
 
 <h6 id="6-5-2删除"><a href="#6-5-2删除" class="headerlink" title="6.5.2删除"></a>6.5.2删除</h6><p>为xxx@xxx移除所有会议室的权限</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Import-Csv C:\room.csv | foreach &#123;remove-MailboxFolderPermission -Identity $_.User -user xxx@xxx  -Confirm:$false&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Import</span>-Csv C:\room.csv | <span class="keyword">foreach</span> &#123;remove-MailboxFolderPermission -<span class="keyword">Identity</span> $_.<span class="keyword">User</span> -<span class="keyword">user</span> xxx@xxx  -Confirm:$<span class="keyword">false</span>&#125;</span><br></pre></td></tr></table></figure>
 
 <p> -Confirm:$false可删除，删除之后对每个会议室中删除都需要进行确认</p>
 <h4 id="7-总结与优势"><a href="#7-总结与优势" class="headerlink" title="7. 总结与优势"></a>7. <strong>总结与优势</strong></h4><p>通过将会议室的日历权限设置为“开放”状态，你可以轻松地让所有需要查看会议室日历的用户访问，而无需在人员变动时每次都调整权限。这样的方法更加高效，避免了权限管理的复杂性。</p>
