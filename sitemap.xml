@@ -110,15 +110,6 @@
   </url>
   
   <url>
-    <loc>http://thepathfinder.top/categories/index.html</loc>
-    
-    <lastmod>2024-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://thepathfinder.top/link/index.html</loc>
     
     <lastmod>2024-01-11</lastmod>
@@ -136,6 +127,15 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>http://thepathfinder.top/categories/index.html</loc>
+    
+    <lastmod>2024-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   <url>
     <loc>http://thepathfinder.top/</loc>
@@ -144,6 +144,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>http://thepathfinder.top/tags/Outlook/</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>http://thepathfinder.top/tags/%E5%9F%9F%E8%B4%A6%E6%88%B7%E8%BF%81%E7%A7%BB/</loc>
@@ -167,13 +174,6 @@
   </url>
   
   <url>
-    <loc>http://thepathfinder.top/tags/Outlook/</loc>
-    <lastmod>2024-12-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://thepathfinder.top/tags/%E8%87%AA%E5%8A%A8%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2024-12-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -188,7 +188,7 @@
   </url>
   
   <url>
-    <loc>http://thepathfinder.top/tags/Win-Apps/</loc>
+    <loc>http://thepathfinder.top/tags/%E7%94%A8%E5%8F%8BU8/</loc>
     <lastmod>2024-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -203,6 +203,13 @@
   
   <url>
     <loc>http://thepathfinder.top/tags/Copilot/</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/tags/Win-Apps/</loc>
     <lastmod>2024-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -231,13 +238,6 @@
   
   <url>
     <loc>http://thepathfinder.top/tags/Teams/</loc>
-    <lastmod>2024-12-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/tags/%E7%94%A8%E5%8F%8BU8/</loc>
     <lastmod>2024-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
