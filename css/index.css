@@ -3612,11 +3612,12 @@ h1.page-title + .tag-cloud-list {
   position: absolute;
   bottom: 100px;
 }
-@media screen and (max-width: 900px) {
-  #page-header #post-info {
-    bottom: 30px;
-    text-align: left;
-  }
+#page-header #post-info # padding: 0 8%,
+#page-header #post-info # width: 100%,
+#page-header #post-info # text-align: center,
+#page-header #post-info +maxWidth900() {
+  bottom: 30px;
+  text-align: left;
 }
 @media screen and (max-width: 768px) {
   #page-header #post-info {
