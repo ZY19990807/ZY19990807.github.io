@@ -3613,7 +3613,7 @@ h1.page-title + .tag-cloud-list {
   bottom: 100px;
   padding: 0 8%;
   width: 100%;
-  text-align: left;
+  text-align: center;
 }
 @media screen and (max-width: 900px) {
   #page-header #post-info {
