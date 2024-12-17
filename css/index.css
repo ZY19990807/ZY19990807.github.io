@@ -3608,21 +3608,36 @@ h1.page-title + .tag-cloud-list {
     height: 360px;
   }
 }
-#page-header #post-info {
+#page-header #post-info #post-info,
+#page-header #  position: absolute #post-info,
+#page-header #  bottom: 100px #post-info,
+#page-header #  padding: 0 8% #post-info,
+#page-header #  width: 100% #post-info,
+#page-header #  text-align: center #post-info {
   position: absolute;
-  bottom: 100px;
-  padding: 0 8%;
+  bottom: 30px;
+  padding: 0 10%;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 @media screen and (max-width: 900px) {
-  #page-header #post-info {
+  #page-header #post-info #post-info,
+  #page-header #  position: absolute #post-info,
+  #page-header #  bottom: 100px #post-info,
+  #page-header #  padding: 0 8% #post-info,
+  #page-header #  width: 100% #post-info,
+  #page-header #  text-align: center #post-info {
     bottom: 30px;
     text-align: left;
   }
 }
 @media screen and (max-width: 768px) {
-  #page-header #post-info {
+  #page-header #post-info #post-info,
+  #page-header #  position: absolute #post-info,
+  #page-header #  bottom: 100px #post-info,
+  #page-header #  padding: 0 8% #post-info,
+  #page-header #  width: 100% #post-info,
+  #page-header #  text-align: center #post-info {
     bottom: 22px;
     padding: 0 22px;
   }
