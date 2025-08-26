@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://thepathfinder.top/20231220Profwiz-0/</loc>
+    <loc>http://thepathfinder.top/link/</loc>
+    
+    <lastmod>2025-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/tags/</loc>
+    
+    <lastmod>2025-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/categories/</loc>
     
     <lastmod>2025-08-26</lastmod>
     
@@ -13,43 +31,7 @@
   <url>
     <loc>http://thepathfinder.top/20240806O365appstoextra/</loc>
     
-    <lastmod>2024-12-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/20240508OutlookcalenderPermission/</loc>
-    
-    <lastmod>2024-12-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/20240201Profwiz-3/</loc>
-    
-    <lastmod>2024-12-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/20240117edge-coplit%20setting/</loc>
-    
-    <lastmod>2024-12-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/20231123OutlookadminPassword/</loc>
-    
-    <lastmod>2024-12-18</lastmod>
+    <lastmod>2025-08-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +40,34 @@
   <url>
     <loc>http://thepathfinder.top/20240723-21Csharepoint/</loc>
     
-    <lastmod>2024-12-17</lastmod>
+    <lastmod>2025-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/20240508OutlookcalenderPermission/</loc>
+    
+    <lastmod>2025-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/20240201Profwiz-3/</loc>
+    
+    <lastmod>2025-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/20240117edge-coplit%20setting/</loc>
+    
+    <lastmod>2025-08-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +76,7 @@
   <url>
     <loc>http://thepathfinder.top/20240115Profwiz-2/</loc>
     
-    <lastmod>2024-12-17</lastmod>
+    <lastmod>2025-08-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +85,7 @@
   <url>
     <loc>http://thepathfinder.top/20231226Profwiz-1/</loc>
     
-    <lastmod>2024-12-17</lastmod>
+    <lastmod>2025-08-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +94,16 @@
   <url>
     <loc>http://thepathfinder.top/20231217-Domain-migration-script/</loc>
     
-    <lastmod>2024-12-17</lastmod>
+    <lastmod>2025-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/20231220Profwiz-0/</loc>
+    
+    <lastmod>2025-08-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +112,16 @@
   <url>
     <loc>http://thepathfinder.top/2023120720231207cross-domain%20authentication/</loc>
     
-    <lastmod>2024-12-17</lastmod>
+    <lastmod>2025-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/20231123OutlookadminPassword/</loc>
+    
+    <lastmod>2025-08-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,34 +130,7 @@
   <url>
     <loc>http://thepathfinder.top/20231122OutlookmeetingPermission/</loc>
     
-    <lastmod>2024-12-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/link/</loc>
-    
-    <lastmod>2024-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/categories/</loc>
-    
-    <lastmod>2024-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/tags/</loc>
-    
-    <lastmod>2024-01-11</lastmod>
+    <lastmod>2025-08-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -160,14 +160,14 @@
   </url>
   
   <url>
-    <loc>http://thepathfinder.top/tags/Profwiz/</loc>
+    <loc>http://thepathfinder.top/tags/%E8%B7%A8%E5%9F%9F%E4%BF%A1%E4%BB%BB%E5%85%B3%E7%B3%BB/</loc>
     <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://thepathfinder.top/tags/Win-Apps/</loc>
+    <loc>http://thepathfinder.top/tags/Profwiz/</loc>
     <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -188,7 +188,7 @@
   </url>
   
   <url>
-    <loc>http://thepathfinder.top/tags/%E8%B7%A8%E5%9F%9F%E4%BF%A1%E4%BB%BB%E5%85%B3%E7%B3%BB/</loc>
+    <loc>http://thepathfinder.top/tags/Win-Apps/</loc>
     <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -196,27 +196,6 @@
   
   <url>
     <loc>http://thepathfinder.top/tags/%E7%94%A8%E5%8F%8BU8/</loc>
-    <lastmod>2025-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/tags/Sharepoint/</loc>
-    <lastmod>2025-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/tags/Onedrive/</loc>
-    <lastmod>2025-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://thepathfinder.top/tags/Teams/</loc>
     <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -237,7 +216,28 @@
   </url>
   
   <url>
+    <loc>http://thepathfinder.top/tags/Sharepoint/</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://thepathfinder.top/tags/%E4%B8%96%E7%BA%AA%E4%BA%92%E8%81%94/</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/tags/Onedrive/</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://thepathfinder.top/tags/Teams/</loc>
     <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
