@@ -1,5 +1,5 @@
-http://thepathfinder.top/tags/
 http://thepathfinder.top/link/
+http://thepathfinder.top/tags/
 http://thepathfinder.top/categories/
 http://thepathfinder.top/20240806O365appstoextra/
 http://thepathfinder.top/20240723-21Csharepoint/
@@ -14,10 +14,10 @@ http://thepathfinder.top/2023120720231207cross-domain%20authentication/
 http://thepathfinder.top/20231123OutlookadminPassword/
 http://thepathfinder.top/20231122OutlookmeetingPermission/
 http://thepathfinder.top/
+http://thepathfinder.top/tags/Outlook/
 http://thepathfinder.top/tags/%E5%9F%9F%E8%B4%A6%E6%88%B7%E8%BF%81%E7%A7%BB/
 http://thepathfinder.top/tags/%E8%B7%A8%E5%9F%9F%E4%BF%A1%E4%BB%BB%E5%85%B3%E7%B3%BB/
 http://thepathfinder.top/tags/Profwiz/
-http://thepathfinder.top/tags/Outlook/
 http://thepathfinder.top/tags/%E8%87%AA%E5%8A%A8%E8%84%9A%E6%9C%AC/
 http://thepathfinder.top/tags/Powershell/
 http://thepathfinder.top/tags/Win-Apps/
